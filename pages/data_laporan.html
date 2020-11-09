@@ -1,0 +1,371 @@
+<!--
+=========================================================
+Material Dashboard - v2.1.2
+=========================================================
+
+Product Page: https://www.creative-tim.com/product/material-dashboard
+Copyright 2020 Creative Tim (https://www.creative-tim.com)
+Coded by Creative Tim
+
+=========================================================
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Material Dashboard by Creative Tim
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="../assets/css/material-dashboard.css?v=2.1.2" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../assets/demo/demo.css" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
+
+        Tip 2: you can also add an image using data-image tag
+    -->
+      <div class="logo"><a href="http://www.creative-tim.com" class="simple-text logo-normal">
+          Creative Tim
+        </a></div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./dashboard.html">
+              <i class="material-icons">dashboard</i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./data_karyawan.html">
+              <i class="material-icons">person</i>
+              <p>Data Karyawan</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./detail_karyawan.html">
+              <i class="material-icons">person</i>
+              <p>Detail Karyawan</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./ketentuan_gaji.html">
+                <i class="material-icons">content_paste</i>
+              <p>Data Ketentuan Gaji</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./data_gaji.html">
+              <i class="material-icons">content_paste</i>
+              <p>Data Gaji</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./data_absensi.html">
+              <i class="material-icons">content_paste</i>
+              <p>Data Absensi</p>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./data_laporan.html">
+              <i class="material-icons">content_paste</i>
+              <p>Data Laporan</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./pilih_laporan.html">
+              <i class="material-icons">content_paste</i>
+              <p>Laporan</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <div class="card card-plain">
+        <div class="card-header card-header-primary">
+            <h4 class="card-title">SIM PT Artha Kreasi Utama</h4>
+            <div class="row">
+            <p class="card-category ml-3">Data Laporan</p>
+            <p class="card-category ml-2">Username</p>
+            <p class="card-category ml-2">Role</p>
+            </div>
+        </div> 
+    </div>
+
+    <div class="row">
+<div class="col-md-5">
+    <div class="card ml-4">
+        <div class="card-header card-header-primary">
+          <h4 class="card-title">Buat Laporan</h4>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label class="bmd-label-floating">Bulan</label>
+                  <div class="input-group mb-3">
+                    <select class="custom-select" id="inputGroupSelect01">
+                      <option selected>Choose...</option>
+                      <option value="1">Januari</option>
+                      <option value="2">Febuari</option>
+                      <option value="3">Maret</option>
+                      <option value="4">April</option>
+                      <option value="5">Mei</option>
+                      <option value="6">Juni</option>
+                      <option value="7">Juli</option>
+                      <option value="8">Agustus</option>
+                      <option value="9">September</option>
+                      <option value="10">Oktober</option>
+                      <option value="11">November</option>
+                      <option value="12">Desember</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label class="bmd-label-floating">Tahun</label>
+                  <div class="input-group mb-3">
+                    <select class="custom-select" id="inputGroupSelect01">
+                      <option selected>Choose...</option>
+                      <option value="1">2020</option>
+                      <option value="2">2019</option>
+                      <option value="3">2018</option>
+                      <option value="3">2017</option>
+                      <option value="3">2016</option>
+                      <option value="3">2015</option>
+                      <option value="3">2014</option>
+                      <option value="3">2013</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label class="bmd-label-floating">Status Karyawan</label>
+                  <div class="input-group mb-3">
+                    <select class="custom-select" id="inputGroupSelect01">
+                      <option selected>Choose...</option>
+                      <option value="1">Karyawan Tetap</option>
+                      <option value="2">Karyawan Kontrak</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+          <button class="btn btn-primary pull-right" id="myBtn" >Simpan</button>
+
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div>
+                <h5 class="text-center">LIST TRANSFER GAJI PT.ARTHA KREASI UTAMA</h5>
+                <h5 class="text-center">PROJECT LAZADA JAKARTA OKTOBER 2019 (KARYAWAN TETAP)</h5>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th style="font-size: 12px;">No</th>
+                      <th style="font-size: 12px;">NIK</th>
+                      <th style="font-size: 12px;">NAMA</th>
+                      <th style="font-size: 12px;">BANK</th>
+                      <th style="font-size: 12px;">NO REK</th>
+                      <th style="font-size: 12px;">AN</th>
+                      <th style="font-size: 12px;">TOTAL GAJI</th>
+                      <th style="font-size: 12px;">Divisi</th>
+                      <th style="font-size: 12px;">Status</th>
+                      <th style="font-size: 12px;">Masuk</th>
+                      <th style="font-size: 12px;">Sakit</th>
+                      <th style="font-size: 12px;">Ijin</th>
+                      <th style="font-size: 12px;">Cuti</th>
+                      <th style="font-size: 12px;">Alfa</th>
+                      <th style="font-size: 12px;">Libur</th>
+                      <th style="font-size: 12px;">GAJI POKOK</th>
+                      <th style="font-size: 12px;">LEMBUR</th>
+                      <th style="font-size: 12px;">INSENTIF</th>
+                      <th style="font-size: 12px;">BPJS KES</th>
+                      <th style="font-size: 12px;">BPJS TK</th>
+                      <th style="font-size: 12px;">BPJS JP</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                      <td style="font-size: 12px;"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div>
+              <button class="btn btn-primary pull-right" id="myBtn" >Simpan & Kirim</button>
+              <button class="btn btn-primary pull-right" id="print" >Cetak</button>
+            </div>
+            </div>
+          </div>
+          
+         </div>
+    </div>
+</div>
+  </div>
+
+
+<div class="mx-4">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Id Laporan</th>
+          <th>Nama Laporan</th>
+          <th>Status Laporan</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="text-center">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><a href="">LIHAT LAPORAN</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+    </div>
+</body>
+
+</html>
+
+<script src="../assets/js/core/jquery.min.js"></script>
+<script src="../assets/js/core/printThis.js"></script>
+<script>
+  // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+$('#print').click(function(){
+    $('.modal').printThis({
+        debug: false,               // show the iframe for debugging
+        importCSS: true,            // import parent page css
+        importStyle: false,         // import style tags
+        printContainer: true,       // print outer container/$.selector
+        loadCSS: ["file:///D:/coding/aplikasipenggajian/assets/css/material-dashboard.css","file:///D:/coding/aplikasipenggajian/assets/css/material-dashboard.min.css" ],                // path to additional css file - use an array [] for multiple
+        pageTitle: "",              // add title to print page
+        removeInline: false,        // remove inline styles from print elements
+        removeInlineSelector: "*",  // custom selectors to filter inline styles. removeInline must be true
+        printDelay: 333,            // variable print delay
+        header: null,               // prefix to html
+        footer: null,               // postfix to html
+        base: false,                // preserve the BASE tag or accept a string for the URL
+        formValues: true,           // preserve input/form values
+        canvas: false,              // copy canvas content
+        doctypeString: '<!DOCTYPE html>', // enter a different doctype for older markup
+        removeScripts: false,       // remove script tags from print content
+        copyTagClasses: false,      // copy classes from the html & body tag
+        beforePrintEvent: null,     // callback function for printEvent in iframe
+        beforePrint: null,          // function called before iframe is filled
+        afterPrint: null            // function called before iframe is removed
+    });
+})
+</script>
+<style scoped>
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  margin-left: 275px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
